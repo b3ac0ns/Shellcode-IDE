@@ -1,7 +1,7 @@
-# Shellcode-IDE (v0.1.15)
+# Shellcode-IDE (v0.1.16)
 Author: **CX330Blake**
 
-_Shellcode IDE makes developing and analyzing shellcode much more convenient._
+_Shellcode IDE — makes developing and analyzing shellcode much more convenient._
 
 ## Description:
 

@@ -9,6 +9,8 @@
 
 ## Demo
 
+https://github.com/user-attachments/assets/8a0cbc62-4f29-417f-a1d1-6d3005a1be41
+
 ## What the project does
 
 Shellcode-IDE is a powerful Binary Ninja plugin designed for reverse engineers, CTF players, exploit developers, and security researchers. It provides a comprehensive environment for developing and analyzing shellcode with a user-friendly GUI that combines Binary Ninja's assembler/disassembler capabilities for rapid iteration and safe validation of shellcode.

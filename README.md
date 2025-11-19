@@ -1,14 +1,9 @@
-# Shellcode-IDE
+# Shellcode-IDE (v0.1.11)
+Author: **CX330Blake**
 
-[![License](https://img.shields.io/github/license/CX330Blake/Shellcode-IDE)](LICENSE)
-[![Binary Ninja](https://img.shields.io/badge/Binary%20Ninja-v3164+-red)](https://binary.ninja/)
-[![Python](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/)
+_## Demo
 
-> A Qt-based Binary Ninja plugin that helps you compose, analyze, optimize, validate, and export shellcode across architectures that Binary Ninja supports.
-
-## Demo
-
-<https://github.com/user-attachments/assets/8a0cbc62-4f29-417f-a1d1-6d3005a1be41>
+https://github.com/user-attachments/assets/8a0cbc62-4f29-417f-a1d1-6d3005a1be41
 
 ## What the project does
 
@@ -172,4 +167,57 @@ The plugin requires the following dependencies:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details._
+
+## Description:
+
+Shellcode IDE — makes developing and analyzing shellcode much more convenient.
+
+
+## Installation Instructions
+
+### Darwin
+
+macOS:
+cd "~/Library/Application Support/Binary Ninja/plugins"
+git clone https://github.com/CX330Blake/Shellcode-IDE Shellcode-IDE
+Restart Binary Ninja or use "Reload Plugins".
+
+### Linux
+
+Linux:
+cd ~/.binaryninja/plugins
+git clone https://github.com/CX330Blake/Shellcode-IDE Shellcode-IDE
+Restart Binary Ninja or use "Reload Plugins".
+
+### Windows
+
+Windows (PowerShell or CMD):
+cd "%APPDATA%\Binary Ninja\plugins"
+git clone https://github.com/CX330Blake/Shellcode-IDE Shellcode-IDE
+Restart Binary Ninja or use "Reload Plugins".
+
+## Minimum Version
+
+This plugin requires the following minimum version of Binary Ninja:
+
+* 3164
+
+
+
+## Required Dependencies
+
+The following dependencies are required for this plugin:
+
+ * pip - pygments>=2.12, keystone-engine>=0.9.2
+ * apt - 
+ * installers - 
+ * other - Requires Binary Ninja with Python API (licensed)., PySide2 is bundled with Binary Ninja; no extra install typically required.
+
+
+## License
+
+This plugin is released under a MIT license.
+## Metadata Version
+
+2
